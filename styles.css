@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration:    none;
+    list-style: none;
+}
+
+body {
+    background-color: #21386e;
+}
+
+header {
+    background-color: black;
+    border-bottom: 2px aliceblue dashed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+
+#logo {
+    height: auto;
+    margin-top: 15px;    
+}
+
+.ancoras {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+i {
+   font-size: 1.4rem;
+}
+
+#icone1 {
+    color: #8a3ab9 ;
+}
+
+#icone2 {
+    color: #25D366;
+}
+
+#icone3 {
+    color: #0e76a8; 
+}
+
+#nome {
+    color: aliceblue;
+}
+
+strong{
+    color: #25D366;
+}
+
+.pai-divs {
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.curriculo {    
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #21386e;
+    border-bottom: 2px aliceblue dashed;
+}
+
+
+#texto1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 140px;
+    color: aliceblue;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#texto1-2 {
+    font-size: 28.7px;
+    margin-top: 20px;
+    margin-left: 140px;
+    color: aliceblue;   
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#texto2 {
+    font-size: 20px;
+    margin-top: 26px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+#texto2-1 {
+    font-size: 20px;
+    margin-top: 4px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #21386e;
+    border-bottom: 2px aliceblue dashed;
+}
+
+.interesses {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #21386e;
+    border-bottom: 2px aliceblue dashed;
+}
+
+.cor {
+    background-color: #21386e;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px aliceblue dashed;
+    
+}
+
+table {
+    border: 2px solid #25D366;
+    color: aliceblue;
+    height: 300px;
+    width: 1000px;
+    text-align: center;
+}
+
+th {
+    height: 40px;
+}
+
+
+footer {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#contato {
+    color: aliceblue;
+    margin-left: 200px;
+    font-size: 30px;
+
+}
