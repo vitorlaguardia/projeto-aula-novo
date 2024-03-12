@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #21386e;
+}
+
+header {
+    background-color: black;
+    border-bottom: 2px aliceblue dashed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+
+#logo {
+    height: auto;
+    margin-top: 15px;    
+}
+
+.ancoras {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+i {
+   font-size: 1.4rem;
+}
+
+#icone1 {
+    color: #8a3ab9;
+    transition: 0.6s;
+}
+
+#icone1:hover {
+    color: aliceblue;
+}
+
+#icone2 {
+    color: #25D366;
+    transition: 0.6s;
+}
+
+#icone2:hover {
+    color: aliceblue;
+}
+
+#icone3 {
+    color: #0e76a8; 
+    transition: 0.6s;
+}
+
+#icone3:hover {
+    color: aliceblue;
+}
+
+#t1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 650px;
+    margin-bottom: 30px;
+}
