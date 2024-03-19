@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 body {
     background-color: #21386e;
 }
@@ -21,9 +22,9 @@ header {
     width: 100%;
 }
 
-#logo {
+#logo  {
     height: auto;
-    margin-top: 15px;    
+    margin-top: 15px;
 }
 
 .ancoras {
@@ -73,14 +74,50 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+
 }
 
 .pai {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    height: 600px;
+    width: 400px;
+    border: 2px solid aliceblue;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+label {
+    display: block;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+input {
     width: 60%;
-    height: 650px;
-    margin-bottom: 30px;
+    margin-top: 3px;
+    margin-left: 20px;
+    height: 20px;
+    border-radius: 7px
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    background-color: #25D366;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: aliceblue;
 }
