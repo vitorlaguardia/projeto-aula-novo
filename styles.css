@@ -17,13 +17,14 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
 
 #logo {
-    height: auto;
-    margin-top: 15px;    
+    height: 90px;   
+    width: 100px;
+    border-radius: 50%;
 }
 
 .ancoras {
@@ -123,7 +124,7 @@ strong{
 .habilidades {
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 170px;
     background-color: #21386e;
     border-bottom: 2px aliceblue dashed;
 }
@@ -166,8 +167,25 @@ footer {
     align-items: center;
 }
 
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #contato {
     color: aliceblue;
-    margin-left: 200px;
-    font-size: 30px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+#contato:hover {
+    color: grey;
+}
+
+#email {
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 20px;
 }
