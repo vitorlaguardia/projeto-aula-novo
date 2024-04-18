@@ -5,6 +5,7 @@
     padding: 0%;
     text-decoration: none;
     list-style: none;
+    border:  0px solid aliceblue;
 }
 
 
@@ -18,13 +19,14 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
 
 #logo  {
-    height: auto;
-    margin-top: 15px;
+    height: 90px;   
+    width: 100px;
+    border-radius: 50%;
 }
 
 .ancoras {
